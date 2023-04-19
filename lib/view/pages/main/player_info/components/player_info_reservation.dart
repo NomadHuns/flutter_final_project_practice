@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_final_project_practice/core/constants/my_colors.dart';
+import 'package:flutter_final_project_practice/view/components/my_card_button.dart';
 
 class PlayerInfoReservation extends StatelessWidget {
   const PlayerInfoReservation({Key? key}) : super(key: key);
@@ -16,39 +16,10 @@ class PlayerInfoReservation extends StatelessWidget {
             fontWeight: FontWeight.bold,
           ),
         ),
-        Card(
-          elevation: 2,
-          child: InkWell(
-            onTap: () {},
-            child: Container(
-              height: 40,
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(5),
-                border: Border.all(
-                  color: kGrayColor,
-                  width: 1,
-                ),
-              ),
-              child: const Padding(
-                padding: EdgeInsets.symmetric(horizontal: 15.0),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    Text(
-                      "내 예약",
-                      style: TextStyle(
-                        fontSize: 13,
-                      ),
-                    ),
-                    Icon(
-                      Icons.arrow_forward_ios,
-                      size: 16,
-                    ),
-                  ],
-                ),
-              ),
-            ),
-          ),
+        MyCardButton(
+          icon: Icons.arrow_forward_ios,
+          text: "내 예약",
+          isIconFirst: false,
         ),
       ],
     );
