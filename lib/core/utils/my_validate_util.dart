@@ -43,6 +43,30 @@ Function validateEmail() {
   };
 }
 
+Function validateStadiumName() {
+  return (String? value) {
+    if (value!.isEmpty) {
+      return "경기장 이름은 공백이 들어갈 수 없습니다.";
+    } else if (value.length > 30) {
+      return "경기장 이름의 길이를 초과하였습니다.";
+    } else {
+      return null;
+    }
+  };
+}
+
+Function validateStadiumAddress() {
+  return (String? value) {
+    if (value!.isEmpty) {
+      return "경기장 주소는 공백이 들어갈 수 없습니다.";
+    } else if (value.length > 120) {
+      return "경기장 주소의 길이를 초과하였습니다.";
+    } else {
+      return null;
+    }
+  };
+}
+
 Function validateTitle() {
   return (String? value) {
     if (value!.isEmpty) {

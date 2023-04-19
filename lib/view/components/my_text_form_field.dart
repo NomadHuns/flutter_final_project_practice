@@ -11,7 +11,7 @@ class MyTextFormField extends StatelessWidget {
     Key? key,
     required this.hint,
     required this.funValidator,
-    required this.obscureText,
+    this.obscureText = false,
     this.controller,
     this.borderRadious = 5,
   }) : super(key: key);
