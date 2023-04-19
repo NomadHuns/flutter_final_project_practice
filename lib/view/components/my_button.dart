@@ -22,7 +22,7 @@ class MyButton extends StatelessWidget {
     this.height = 40,
     this.backgroundColor = kPrimaryColor,
     this.image,
-    this.imageSize,
+    this.imageSize = 40,
     this.fontWeight = FontWeight.normal,
     this.icon,
     this.iconSize = 30,

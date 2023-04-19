@@ -3,6 +3,7 @@ import 'package:flutter_final_project_practice/core/constants/my_colors.dart';
 import 'package:flutter_final_project_practice/view/components/my_button.dart';
 import 'package:flutter_final_project_practice/view/pages/main/main_holder/components/main_holder_menu.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
+import 'package:flutter_final_project_practice/view/pages/main/main_page/main_page.dart';
 
 class MainHolder extends StatefulWidget {
   const MainHolder({Key? key}) : super(key: key);
@@ -35,7 +36,7 @@ class _MainHolderState extends State<MainHolder> {
       children: [
         _page(0),
         _page(1),
-        _page(2),
+        _mainPage(2),
         _page(3),
         _page(4),
       ],
@@ -43,6 +44,7 @@ class _MainHolderState extends State<MainHolder> {
   }
 
   Widget _page(index) => const Placeholder();
+  MainPage _mainPage(index) => const MainPage();
 
   CurvedNavigationBar _buildNavigationBar() {
     return CurvedNavigationBar(
