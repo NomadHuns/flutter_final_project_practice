@@ -10,6 +10,9 @@ class MyButton extends StatelessWidget {
   final String? image;
   final double? imageSize;
   final FontWeight fontWeight;
+  final IconData? icon;
+  final double? iconSize;
+  final Color? iconColor;
 
   const MyButton({
     Key? key,
@@ -21,11 +24,14 @@ class MyButton extends StatelessWidget {
     this.image,
     this.imageSize,
     this.fontWeight = FontWeight.normal,
+    this.icon,
+    this.iconSize,
+    this.iconColor,
   }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    if (image == null) {
+    if (image == null && icon == null) {
       return ElevatedButton(
         onPressed: funButton,
         style: ElevatedButton.styleFrom(
@@ -35,12 +41,19 @@ class MyButton extends StatelessWidget {
           style: TextStyle(fontWeight: fontWeight),
         ),
       );
+    } if(icon == null) {
+      return IconButton(
+        alignment: Alignment.center,
+        onPressed: funButton,
+        icon: Image.asset(image!),
+        iconSize: imageSize,
+      );
     } else {
       return IconButton(
         alignment: Alignment.center,
-        onPressed: () {},
-        icon: Image.asset(image!),
-        iconSize: imageSize,
+        onPressed: funButton,
+        icon: Icon(icon, color: iconColor),
+        iconSize: iconSize,
       );
     }
   }
