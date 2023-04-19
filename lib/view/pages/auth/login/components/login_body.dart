@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_final_project_practice/core/constants/my_routes.dart';
-import 'package:flutter_final_project_practice/view/components/my_button.dart';
 import 'package:flutter_final_project_practice/view/pages/auth/login/components/login_buttons.dart';
 import 'package:flutter_final_project_practice/view/pages/auth/login/components/login_logo.dart';
 import 'package:flutter_final_project_practice/view/pages/auth/login/components/oauth_buttons.dart';

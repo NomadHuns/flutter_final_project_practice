@@ -18,7 +18,14 @@ class LoginButtons extends StatelessWidget {
           height: 40,
         ),
         const SizedBox(height: 10),
-        MyButton(funButton: () {}, text: "회원 가입", width: 230, height: 40),
+        MyButton(
+          funButton: () {
+            Navigator.pushNamed(context, MyRoute.joinPage);
+          },
+          text: "회원 가입",
+          width: 230,
+          height: 40,
+        ),
       ],
     );
   }
