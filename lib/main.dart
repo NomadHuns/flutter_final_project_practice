@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       navigatorKey: navigatorKey,
       debugShowCheckedModeBanner: false,
-      initialRoute: MyRoute.loginPage,
+      initialRoute: MyRoute.mainPage,
       routes: getRouter(),
       theme: ThemeData(
         appBarTheme: AppBarTheme(

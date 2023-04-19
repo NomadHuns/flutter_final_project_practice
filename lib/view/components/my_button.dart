@@ -25,8 +25,8 @@ class MyButton extends StatelessWidget {
     this.imageSize,
     this.fontWeight = FontWeight.normal,
     this.icon,
-    this.iconSize,
-    this.iconColor,
+    this.iconSize = 30,
+    this.iconColor = kDarkIconColor,
   }) : super(key: key);
 
   @override
