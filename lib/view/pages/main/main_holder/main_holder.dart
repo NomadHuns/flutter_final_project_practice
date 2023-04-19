@@ -5,6 +5,7 @@ import 'package:flutter_final_project_practice/view/pages/main/main_holder/compo
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter_final_project_practice/view/pages/main/main_page/main_page.dart';
 import 'package:flutter_final_project_practice/view/pages/main/player_info/player_info_page.dart';
+import 'package:flutter_final_project_practice/view/pages/main/region_list/region_list_page.dart';
 
 class MainHolder extends StatefulWidget {
   const MainHolder({Key? key}) : super(key: key);
@@ -36,7 +37,7 @@ class _MainHolderState extends State<MainHolder> {
       },
       children: [
         _page(0),
-        _page(1),
+        _regionListPage(1),
         _mainPage(2),
         _page(3),
         _playerInfoPage(4),
@@ -47,6 +48,7 @@ class _MainHolderState extends State<MainHolder> {
   Widget _page(index) => const Placeholder();
   MainPage _mainPage(index) => const MainPage();
   PlayerInfoPage _playerInfoPage(index) => const PlayerInfoPage();
+  RegionListPage _regionListPage(index) => const RegionListPage();
 
   CurvedNavigationBar _buildNavigationBar() {
     return CurvedNavigationBar(
