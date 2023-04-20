@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_final_project_practice/view/components/my_card_button.dart';
 
-class PlayerInfoReservation extends StatelessWidget {
-  const PlayerInfoReservation({Key? key}) : super(key: key);
+class MyInfoReservation extends StatelessWidget {
+  const MyInfoReservation({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

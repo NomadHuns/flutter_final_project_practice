@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class PlayerInfoInquiry extends StatelessWidget {
-  const PlayerInfoInquiry({Key? key}) : super(key: key);
+class MyInfoInquiry extends StatelessWidget {
+  const MyInfoInquiry({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

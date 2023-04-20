@@ -7,7 +7,6 @@ import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter_final_project_practice/view/pages/main/main_page/main_page.dart';
 import 'package:flutter_final_project_practice/view/pages/main/player_info/player_info_page.dart';
 import 'package:flutter_final_project_practice/view/pages/main/region_list/region_list_page.dart';
-import 'package:flutter_final_project_practice/view/test/cupertino_picker_test.dart';
 
 class MainHolder extends StatefulWidget {
   const MainHolder({Key? key}) : super(key: key);
@@ -38,7 +37,7 @@ class _MainHolderState extends State<MainHolder> {
         });
       },
       children: [
-        _cupertinoPickerExample(0),
+        _page(0),
         _regionListPage(1),
         _mainPage(2),
         _page(3),
@@ -51,7 +50,6 @@ class _MainHolderState extends State<MainHolder> {
   MainPage _mainPage(index) => const MainPage();
   PlayerInfoPage _playerInfoPage(index) => const PlayerInfoPage();
   RegionListPage _regionListPage(index) => const RegionListPage();
-  CupertinoPickerExample _cupertinoPickerExample(index) => CupertinoPickerExample();
 
   CurvedNavigationBar _buildNavigationBar() {
     return CurvedNavigationBar(

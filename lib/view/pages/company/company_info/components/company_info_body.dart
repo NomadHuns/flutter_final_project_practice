@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_final_project_practice/core/constants/my_colors.dart';
-import 'package:flutter_final_project_practice/view/pages/main/player_info/components/player_info_contents.dart';
 import 'package:flutter_final_project_practice/view/components/my_info_inquiry.dart';
 import 'package:flutter_final_project_practice/view/components/my_info_reservation.dart';
+import 'package:flutter_final_project_practice/view/pages/company/company_info/components/company_info_contents.dart';
 
-class PlayerInfoBody extends StatelessWidget {
-  const PlayerInfoBody({Key? key}) : super(key: key);
+class CompanyInfoBody extends StatelessWidget {
+  const CompanyInfoBody({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -15,7 +15,7 @@ class PlayerInfoBody extends StatelessWidget {
           padding: EdgeInsets.symmetric(horizontal: 16),
           child: Column(
             children: [
-              PlayerInfoContents(),
+              CompanyInfoContents(),
               SizedBox(height: 40),
               MyInfoReservation(),
               SizedBox(height: 30),
@@ -23,7 +23,7 @@ class PlayerInfoBody extends StatelessWidget {
           ),
         ),
         Divider(
-          color: kGrayColor,
+          color: kBoarderColor,
           thickness: 11,
           height: 1,
         ),
