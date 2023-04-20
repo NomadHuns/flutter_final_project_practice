@@ -30,7 +30,7 @@ class CompanyInfoContents extends StatelessWidget {
                 ),
               ),
               child: MyListTile(
-                image: "assets/images/man.png",
+                image: "assets/images/icons/man.png",
                 imageHeight: 40,
                 rect: true,
                 funTrailing: () {},
@@ -49,7 +49,7 @@ class CompanyInfoContents extends StatelessWidget {
                 ),
               ),
               child: const MyListTile(
-                image: "assets/images/pointt.png",
+                image: "assets/images/icons/pointt.png",
                 imageHeight: 40,
                 trailingText: "200",
                 trailingFontSize: 20,
@@ -66,7 +66,7 @@ class CompanyInfoContents extends StatelessWidget {
                 ),
               ),
               child: const MyListTile(
-                image: "assets/images/sns.png",
+                image: "assets/images/icons/sns.png",
                 title: "가게 후기",
               ),
             ),
@@ -80,7 +80,7 @@ class CompanyInfoContents extends StatelessWidget {
                 ),
               ),
               child: const MyListTile(
-                image: "assets/images/sns.png",
+                image: "assets/images/icons/sns.png",
                 title: "내 경기장 관리하기",
               ),
             ),
@@ -94,7 +94,7 @@ class CompanyInfoContents extends StatelessWidget {
                 ),
               ),
               child: const MyListTile(
-                image: "assets/images/sns.png",
+                image: "assets/images/icons/sns.png",
                 title: "경기장 등록하기",
               ),
             ),

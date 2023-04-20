@@ -6,7 +6,7 @@ class LoginLogo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Image.asset(
-      'assets/images/sporting.png',
+      'assets/images/logo/sporting.png',
       width: 400,
       height: 400,
     );

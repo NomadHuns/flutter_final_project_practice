@@ -11,7 +11,7 @@ class JoinPage extends StatelessWidget {
     return Container(
       decoration: const BoxDecoration(
         image: DecorationImage(
-          image: AssetImage('assets/images/reguster.png'),
+          image: AssetImage('assets/images/back_grounds/reguster.png'),
           fit: BoxFit.cover,
         ),
       ),

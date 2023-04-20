@@ -30,7 +30,7 @@ class PlayerInfoContents extends StatelessWidget {
                 ),
               ),
               child: MyListTile(
-                image: "assets/images/man.png",
+                image: "assets/images/icons/man.png",
                 imageHeight: 40,
                 rect: true,
                 funTrailing: () {},
@@ -49,7 +49,7 @@ class PlayerInfoContents extends StatelessWidget {
                 ),
               ),
               child: const MyListTile(
-                image: "assets/images/pointt.png",
+                image: "assets/images/icons/pointt.png",
                 imageHeight: 40,
                 trailingText: "200",
                 trailingFontSize: 20,
@@ -65,7 +65,7 @@ class PlayerInfoContents extends StatelessWidget {
                 ),
               ),
               child: const MyListTile(
-                image: "assets/images/coin.png",
+                image: "assets/images/icons/coin.png",
                 imageHeight: 40,
                 trailingText: "200",
                 trailingFontSize: 20,
@@ -82,7 +82,7 @@ class PlayerInfoContents extends StatelessWidget {
                 ),
               ),
               child: const MyListTile(
-                image: "assets/images/coopon.png",
+                image: "assets/images/icons/coopon.png",
                 trailingText: "1",
                 trailingFontSize: 20,
                 title: "쿠폰함",
@@ -98,7 +98,7 @@ class PlayerInfoContents extends StatelessWidget {
                 ),
               ),
               child: const MyListTile(
-                image: "assets/images/sns.png",
+                image: "assets/images/icons/sns.png",
                 title: "나의 후기",
               ),
             ),
@@ -112,7 +112,7 @@ class PlayerInfoContents extends StatelessWidget {
                 ),
               ),
               child: const MyListTile(
-                image: "assets/images/her.png",
+                image: "assets/images/icons/her.png",
                 title: "찜",
               ),
             ),

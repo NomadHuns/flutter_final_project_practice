@@ -73,6 +73,9 @@ flutter:
     - assets/images/oauth/
     - assets/images/banners/
     - assets/images/stadiums/
+    - assets/images/back_grounds/
+    - assets/images/icons/
+    - assets/images/logo/
 
   # To add assets to your application, add an assets section, like this:
   # assets:
