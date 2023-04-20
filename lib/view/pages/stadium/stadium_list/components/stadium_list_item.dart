@@ -113,7 +113,7 @@ class StadiumListItem extends StatelessWidget {
               height: 20,
               width: 65,
               decoration: const BoxDecoration(
-                color: Color(0xFFFF3366),
+                color: Color(0xFFFF3668),
               ),
               child: const Center(
                 child: Text(
@@ -132,9 +132,9 @@ class StadiumListItem extends StatelessWidget {
               decoration: const BoxDecoration(
                 color: kWhiteColor,
                 border: Border(
-                  top: BorderSide(color: Color(0xFFFF3366), width: 1),
-                  right: BorderSide(color: Color(0xFFFF3366), width: 1),
-                  bottom: BorderSide(color: Color(0xFFFF3366), width: 1),
+                  top: BorderSide(color: Color(0xFFFF3668), width: 1),
+                  right: BorderSide(color: Color(0xFFFF3668), width: 1),
+                  bottom: BorderSide(color: Color(0xFFFF3668), width: 1),
                 ),
               ),
               child: const Center(
@@ -143,7 +143,7 @@ class StadiumListItem extends StatelessWidget {
                   style: TextStyle(
                     fontSize: 12,
                     fontWeight: FontWeight.bold,
-                    color: Color(0xFFFF3366),
+                    color: Color(0xFFFF3668),
                   ),
                 ),
               ),

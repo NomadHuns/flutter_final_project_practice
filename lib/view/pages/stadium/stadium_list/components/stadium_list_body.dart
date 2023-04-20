@@ -19,7 +19,8 @@ class StadiumListBody extends StatelessWidget {
                     price: "2,200,000",
                     stadiumName: "사직 야구장",
                     location: "광안리해수욕장 도보 10분",
-                    stadiumPic: "assets/images/baseballpark.jpg"),
+                    stadiumPic: "assets/images/baseballpark.jpg",
+                hasEvent: true,),
               );
             },
           ),

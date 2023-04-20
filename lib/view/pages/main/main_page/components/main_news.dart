@@ -11,7 +11,7 @@ class MainNews extends StatelessWidget {
           BigNewsTab(
             title: "UCL 8강에서 만난 우승 후보 팀들 간의 맞대결!",
             subtitle: "'펩과 투헬 격돌'...맨시티vs뮌헨 \n 선발 공개[UCL 라인업]",
-            image: "assets/images/news1.jpg",
+            image: "assets/images/news/big_news.jpg",
           ),
           MiniNewsList(),
         ],
@@ -31,9 +31,9 @@ class MiniNewsList extends StatelessWidget {
       child: ListView(
         scrollDirection: Axis.horizontal,
         children: const [
-          MiniNewsTab(title: "6년 만의 WBC, 한국대표팀 \n일정은? 한일전은..", image: "assets/images/wbc.jpg"),
-          MiniNewsTab(title: "네덜란드 축구 대표팀 \n  카타르 월드컵 명단.", image: "assets/images/Netherland.jpg"),
-          MiniNewsTab(title: "네덜란드 축구 대표팀 \n  카타르 월드컵 명단.", image: "assets/images/Netherland.jpg"),
+          MiniNewsTab(title: "6년 만의 WBC, 한국대표팀 \n일정은? 한일전은..", image: "assets/images/news/mini_news_1.jpg"),
+          MiniNewsTab(title: "네덜란드 축구 대표팀 \n  카타르 월드컵 명단.", image: "assets/images/news/mini_news_2.jpg"),
+          MiniNewsTab(title: "네덜란드 축구 대표팀 \n  카타르 월드컵 명단.", image: "assets/images/news/mini_news_2.jpg"),
         ],
       ),
     );

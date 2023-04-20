@@ -68,6 +68,11 @@ flutter:
 
   assets:
     - assets/images/
+    - assets/images/sport_categories/
+    - assets/images/news/
+    - assets/images/oauth/
+    - assets/images/banners/
+    - assets/images/stadiums/
 
   # To add assets to your application, add an assets section, like this:
   # assets:

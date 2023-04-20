@@ -11,7 +11,7 @@ class MainSportCategories extends StatelessWidget {
       delegate: SliverChildListDelegate(
         [
           _buildSportIcon(
-            "assets/images/Tennis.png",
+            "assets/images/sport_categories/tennis.png",
             "테니스",
             () {
               Navigator.push(
@@ -23,7 +23,7 @@ class MainSportCategories extends StatelessWidget {
             },
           ),
           _buildSportIcon(
-            "assets/images/Baseball.png",
+            "assets/images/sport_categories/base_ball.png",
             "야구",
             () {
               Navigator.push(
@@ -35,7 +35,7 @@ class MainSportCategories extends StatelessWidget {
             },
           ),
           _buildSportIcon(
-            "assets/images/Bowling.png",
+            "assets/images/sport_categories/bowling.png",
             "볼링",
             () {
               Navigator.push(
@@ -47,7 +47,7 @@ class MainSportCategories extends StatelessWidget {
             },
           ),
           _buildSportIcon(
-            "assets/images/daon.png",
+            "assets/images/sport_categories/billiards.png",
             "당구",
             () {
               Navigator.push(
@@ -59,7 +59,7 @@ class MainSportCategories extends StatelessWidget {
             },
           ),
           _buildSportIcon(
-            "assets/images/Golf.png",
+            "assets/images/sport_categories/golf.png",
             "골프",
             () {
               Navigator.push(
@@ -71,7 +71,7 @@ class MainSportCategories extends StatelessWidget {
             },
           ),
           _buildSportIcon(
-            "assets/images/Soccer.png",
+            "assets/images/sport_categories/foot_ball.png",
             "축구",
             () {
               Navigator.push(
@@ -83,7 +83,7 @@ class MainSportCategories extends StatelessWidget {
             },
           ),
           _buildSportIcon(
-            "assets/images/Tabletennis.png",
+            "assets/images/sport_categories/table_tennis.png",
             "탁구",
             () {
               Navigator.push(
@@ -95,7 +95,7 @@ class MainSportCategories extends StatelessWidget {
             },
           ),
           _buildSportIcon(
-            "assets/images/Basketball.png",
+            "assets/images/sport_categories/basket_ball.png",
             "농구",
             () {
               Navigator.push(

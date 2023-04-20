@@ -21,10 +21,12 @@ class _MainHolderState extends State<MainHolder> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: _buildAppBar(context),
-      bottomNavigationBar: _buildNavigationBar(),
-      body: _buildPages(),
+    return SafeArea(
+      child: Scaffold(
+        appBar: _buildAppBar(context),
+        bottomNavigationBar: _buildNavigationBar(),
+        body: _buildPages(),
+      ),
     );
   }
 
@@ -53,7 +55,7 @@ class _MainHolderState extends State<MainHolder> {
 
   CurvedNavigationBar _buildNavigationBar() {
     return CurvedNavigationBar(
-      backgroundColor: Colors.greenAccent,
+      backgroundColor: kPrimaryColor,
       color: kWhiteColor,
       animationDuration: const Duration(milliseconds: 300),
       index: currentIndex,
@@ -107,7 +109,7 @@ class _MainHolderState extends State<MainHolder> {
       actions: [
         MyButton(
           funButton: () {
-            Navigator.pushNamed(context, MyRoute.stadiumEnrollPage);
+            Navigator.pushNamed(context, MyRoute.loginPage);
           },
           icon: Icons.bookmark,
         ),

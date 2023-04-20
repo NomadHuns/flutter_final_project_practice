@@ -11,19 +11,19 @@ class OauthButtons extends StatelessWidget {
       children: [
         MyButton(
           funButton: () {},
-          image: 'assets/images/google.png',
+          image: 'assets/images/oauth/google.png',
           imageSize: 50,
         ),
         const SizedBox(width: 20),
         MyButton(
           funButton: () {},
-          image: 'assets/images/kak.png',
+          image: 'assets/images/oauth/kakao.png',
           imageSize: 50,
         ),
         const SizedBox(width: 20),
         MyButton(
           funButton: () {},
-          image: 'assets/images/naver.png',
+          image: 'assets/images/oauth/naver.png',
           imageSize: 50,
         ),
       ],

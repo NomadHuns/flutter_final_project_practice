@@ -8,10 +8,10 @@ class MainEventCategories extends StatelessWidget {
   Widget build(BuildContext context) {
     return SliverGrid(
       delegate: SliverChildListDelegate([
-        _buildSportIcon("assets/images/google.png", "몰루?"),
-        _buildSportIcon("assets/images/google.png", "몰루?"),
-        _buildSportIcon("assets/images/google.png", "몰루?"),
-        _buildSportIcon("assets/images/google.png", "몰루?"),
+        _buildSportIcon("assets/images/oauth/google.png", "몰루?"),
+        _buildSportIcon("assets/images/oauth/google.png", "몰루?"),
+        _buildSportIcon("assets/images/oauth/google.png", "몰루?"),
+        _buildSportIcon("assets/images/oauth/google.png", "몰루?"),
       ]),
       gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
         crossAxisCount: 4,
